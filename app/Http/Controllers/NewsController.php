@@ -18,6 +18,9 @@ class NewsController extends Controller
         } else {
             $headline = null;
         }
+        
+    //    dd($headline);
+    
 
         // news/index.blade.php ファイルを渡している
         // また View テンプレートに headline、 posts、という変数を渡している
